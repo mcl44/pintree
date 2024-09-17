@@ -285,7 +285,7 @@
       fetch('json/pintree.json')
         .then(response => response.json())
         .then(data => {
-          const secondLayer = data[0];
+          const secondLayer = data;
           renderNavigation(secondLayer, document.getElementById('navigation'));
           renderBookmarks(secondLayer, [{ title: 'mcl44-rsrc', children: secondLayer }]);
           document.getElementById('searchInput').value = '';
