@@ -654,13 +654,13 @@
           // Render navigation using the first layer of data
           renderNavigation(firstLayer, document.getElementById('navigation'), true);
           // Render bookmarks using the first layer of data, starting from the Bookmark
-          renderBookmarks(firstLayer, [{ title: 'Bookmark', children: firstLayer }]);
+          renderBookmarks(firstLayer, [{ title: 'mcl44-rsrc', children: firstLayer }]);
 
           // Automatically select and show the first item
           if (firstLayer.length > 0) {
             const firstItem = firstLayer[0];
             updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-            renderBookmarks(firstItem.children, [{ title: 'Bookmark', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
+            renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
           }
         })
         .catch(error => {
