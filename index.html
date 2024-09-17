@@ -594,7 +594,7 @@
         if (firstLayer.length > 0) {
           const firstItem = firstLayer;
           updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-          renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer }]);
+          renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer.children }]);
         }
       })
       .catch(error => console.error('Error loading bookmarks:', error));
@@ -660,7 +660,7 @@
           if (firstLayer.length > 0) {
             const firstItem = firstLayer;
             updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-            renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer }]);
+            renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer.children }]);
           }
         })
         .catch(error => {
