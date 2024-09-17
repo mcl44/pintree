@@ -1,45 +1,40 @@
 [
   {
-    "type": "folder",
-    "addDate": 1718526477999,
-    "title": "导航页",
-    "children": [
-      {
         "type": "link",
         "addDate": 1718526687700,
         "title": "谷歌",
         "icon": "https://logo.clearbit.com/www.google.com",
         "url": "https://www.google.com/"
-      },
-      {
+  },
+  {
         "type": "link",
         "addDate": 1718526707006,
         "title": "X",
         "icon": "https://logo.clearbit.com/twitter.com",
         "url": "https://x.com/"
-      },
-      {
+  },
+  {
         "type": "link",
         "addDate": 1718526755466,
         "title": "YouTube",
         "icon": "https://logo.clearbit.com/www.youtube.com",
         "url": "https://www.youtube.com/"
-      },
-      {
+  },
+  {
         "type": "link",
         "addDate": 1718526778937,
         "title": "instagram",
         "icon": "https://logo.clearbit.com/www.instagram.com",
         "url": "https://www.instagram.com/"
-      },
-      {
+  },
+  {
         "type": "link",
         "addDate": 1718526802202,
         "title": "Facebook",
         "icon": "https://logo.clearbit.com/www.facebook.com",
         "url": "https://www.facebook.com/"
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865665,
         "title": "Design",
@@ -1480,8 +1475,8 @@
             "url": "https://uxchi.notion.site/Hey-I-m-Chi-8e9115aa3de44ae0857d402ace47d076"
           }
         ]
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865582,
         "title": "AI Tools",
@@ -2026,8 +2021,8 @@
             "url": "https://cloud.sealos.io/"
           }
         ]
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865554,
         "title": "ChatGPT",
@@ -2621,8 +2616,8 @@
             "url": "https://markprompt.com/"
           }
         ]
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865562,
         "title": "AI Painting",
@@ -2908,8 +2903,8 @@
             "url": "https://www.midjourney.com/home"
           }
         ]
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865392,
         "title": "Extensions",
@@ -3027,8 +3022,8 @@
             "url": "https://github.com/AdguardTeam/PopupBlocker"
           }
         ]
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865435,
         "title": "Programming",
@@ -3412,8 +3407,8 @@
             "url": "https://github.com/bytewax/awesome-public-real-time-datasets"
           }
         ]
-      },
-      {
+  },
+  {
         "type": "folder",
         "addDate": 1718526865330,
         "title": "Android",
@@ -3580,7 +3575,5 @@
             "url": "https://play.google.com/store/apps/details?id=com.app.meoko"
           }
         ]
-      }
-    ]
   }
 ]
