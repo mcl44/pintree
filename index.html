@@ -660,7 +660,7 @@
           if (firstLayer.length > 0) {
             const firstItem = firstLayer;
             updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-            renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
+            renderBookmarks(firstItem.children, [{ title: 'mcl44-rsrc', children: firstLayer }]);
           }
         })
         .catch(error => {
